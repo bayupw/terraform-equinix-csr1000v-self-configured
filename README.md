@@ -21,7 +21,7 @@ module "csr1000v" {
   device_hostname = "csr1000v-primary"
   notifications   = ["myemail@equinix.com"]
   create_acl      = true
-  create_ssh_user = true
+  create_ssh_key  = true
   acl_name        = "my-access-list"
   ssh_username    = "csradmin1"
   ssh_key_name    = "Cisco123"

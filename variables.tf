@@ -34,7 +34,6 @@ variable "acl_description" {
   default     = "ACL description."
 }
 
-
 variable "ssh_username" {
   description = "SSH username."
   type        = string
